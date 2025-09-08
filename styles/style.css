@@ -1,0 +1,490 @@
+body{
+   margin: 0%;
+  }
+  body{
+    background: url(/qu.jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  }
+.my-port{
+    margin-top:100px;
+  
+}
+main{
+margin: auto;
+   width: 70%;
+}
+
+.navbar{
+ 
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+position: fixed;
+width:70%;
+border-radius:50px;
+top: 0%;
+transition: all 0.5s;
+
+}
+
+.navbar:hover{
+background-color: white;
+    color: black;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    box-shadow: 3px 5px 3px  rgb(10, 10, 10);
+}
+
+nav ul li{
+    list-style:none;
+     color: white;
+}
+
+nav ul li a{
+
+   color: rgb(255, 0, 123);
+    text-decoration: solid 100px rgb(252, 251, 252) ;
+margin-bottom: auto;
+      margin: 0 15px;
+      transition: all 0.5s;
+      box-shadow: #333;
+      
+
+}
+nav ul li a:hover{
+    color:  rgb(0, 0, 0);
+      box-shadow: 3px 5px 3px  rgb(10, 10, 10);
+}
+
+
+nav ul {
+    display: flex;
+  
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+width: 50px;
+height: 50px;
+border-radius:50%;
+margin-right:10px;
+}
+.headerleft{
+    color: white;
+}
+
+@media (max-width:768px) {
+main{
+    width:100%;
+}
+  body{
+
+    background: url(/qu.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+   background-size: cover;
+       background-position: bottom;
+  }
+.navbar{
+    display: block;
+ justify-items: center;
+  padding: 10px;
+height:83px;
+justify-content: space-between;
+align-items:center;
+position: fixed;
+width:96%;
+border-radius:100px;
+
+}
+nav ul li{
+margin-top: -20px;
+}
+.header{
+    display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  margin-top: -70px;
+
+}
+.header-right img {
+    border-radius:45%;
+    width: 150px;
+    height: 150px;
+margin-left: 60px;
+}
+.btn{
+     height: 25px;
+     color: white;
+background-color: rgb(217, 0, 0)
+ 
+
+}
+.btn1{
+background-color: rgb(252, 46, 115);
+ color: white;
+ height: 25px;
+}
+.headerleft ul {
+    padding: 0%;
+display: flex;
+}
+.headerleft ul li {
+ list-style: none;
+margin-right: 10px;
+width:auto;
+height: auto;
+
+}
+.headerleft ul li a{
+    text-decoration: none;
+color: palevioletred;
+
+}
+.imges img{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color: rgba(250, 250, 250, 0.797);
+}
+.nav-header2 ul li img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;}
+    .box-contact 
+
+.box-contact{
+  
+    height:250px;
+     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ background: url(/download.webp);
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+ border-radius:5%;
+font-weight: bold;
+word-wrap: break-word;
+overflow: break-word;
+}
+  
+.nav-header2 ul li img:hover{
+     transform: scale(1.3);
+    transition: all 0.5s;}
+
+   .education-right-section{
+    width:150px; white-space: normal;
+  overflow: break-word;
+   word-wrap: break-word;
+
+   }
+   .education-left-section img { padding: -40px;
+}
+.enter{
+    display: flex;
+
+}
+
+
+}
+/* header styles */
+.header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+
+}
+.header-right img {
+    border-radius:45%;
+margin-left: 160px;
+}
+.btn{
+     height: 25px;
+     color: white;
+ background:linear-gradient(rgb(247, 2, 222),red)
+ 
+
+}
+.btn1{
+     color: white;
+ height: 25px;
+ background:linear-gradient(rgb(2, 223, 247),rgb(0, 42, 255)) 
+}
+
+
+.headerleft ul {
+    padding: 0%;
+display: flex;
+}
+.headerleft ul li {
+ list-style: none;
+margin-right: 10px;
+width:auto;
+height: auto;
+
+}
+.headerleft ul li a{
+    text-decoration: none;
+color: palevioletred;
+
+}
+.imges img{
+
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+   background:linear-gradient(red,pink,yellow,pink,red)
+   }
+.nav-header2 ul li img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;  
+}
+.nav-header2 ul li img:hover{
+     transform: scale(1.3);
+    transition: all 0.5s;
+}
+.skills-box img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+ }
+ .section-title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    border: 7px dotted rgb(2, 2, 201);
+    width: 140px;
+    margin: auto;
+background: url(/R\ \(2\).jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ border-radius: 50px;
+}
+
+.sec-title  {
+ text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    border: 7px dotted darksalmon;
+    width: 195px;
+ background-color: rgba(254, 83, 183, 0.703);
+ border-radius: 50px;
+ padding-bottom:7px;
+}
+.skills-container{
+    width: 55%;
+    border-radius: 30px;
+     border: 6px double rgb(6, 2, 217);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    background: url(/ax63VN.jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.skills-box{
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(248, 67, 212, 0.959);
+     width: 80px;
+      height: 95px;
+      flex-direction: column;
+      align-items: auto;
+      padding: 15px;
+      border: 5px dotted rgb(13, 0, 255);
+      word-wrap: break-word;
+overflow: break-word;
+ 
+}
+.skills-box:hover{
+     border: 3px solid rgb(255, 255, 255);
+     transition:border 0.8s;
+}
+.experience-box{
+    margin: auto;
+   border: 7px double darksalmon;
+    width: 80%;
+    border-radius: 36px;
+    background: url(/R.jpg);
+  background-repeat: no-repeat;
+ border-radius:15%;
+font-weight: bold;
+word-wrap: break-word;
+overflow: break-word;
+}
+.title2{
+    margin:  65px auto 13px;
+    background: url(/R\ \(2\).jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.experience-right{
+    padding-left: 80px;
+    margin-top: -28px;
+
+}
+.experience-right p{
+    margin-top: -15px;
+}
+.experience-right h2{
+    margin-top: -10px;
+    color: rgb(126, 68, 6);
+    ;
+    font-weight:bolder;
+border-radius: 30px;
+}
+
+.experience-right ul{
+    margin-top: -10px;
+    padding: -15px;
+ 
+}
+.experience-right ul li::marker{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.experience-left img{
+    height: 50px;
+    width: 190px;
+background-color: rgba(0, 0, 0, 0.849);
+ border-radius: 30px;
+}
+.education{
+width:80%;
+margin: 20px auto;
+display: flex;
+}
+.sec-title-edu{
+ text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+ border: 7px dotted rgba(198, 1, 198, 0.906);
+    width: 186px;
+    height: 50px;
+    margin:  65px auto 13px;
+ background: url(/R\ \(2\).jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ border-radius: 50px;
+
+}
+.education-box{
+     border: 7px double rgb(186, 4, 199);
+    color: white;
+    margin: auto;
+    width: 50%;
+    display:flex;
+align-items:top;
+justify-content: space-between;
+background: url(/eee.jpg);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+.education-right-setion{
+    width:70%;
+padding:20px;
+box-sizing: border-box;
+margin-left:85px;
+}
+.education-left-section img{
+    width: 60px;
+    height: auto;
+    margin: auto;
+    display: flex;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.sec-about{
+     border: 7px double rgb(199, 4, 4);
+     margin: auto;
+    width: 80%;
+    height: 600px;
+    border-radius: 25px;
+    background: url(/wall.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+ border-radius:15%;
+font-weight: bold;
+word-wrap: break-word;
+overflow: break-word;
+  margin:  65px auto 13px;
+}
+.right {
+  margin: auto 50px;
+font-weight: bolder;
+}
+.box-contact{
+    align-items: center;
+     border: 7px dotted rgb(199, 4, 137);
+    width: 80%;
+    height: 350px;
+    border-radius: 25px;
+    background: url(/download.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+ border-radius:5%;
+font-weight: bold;
+word-wrap: break-word;
+overflow: break-word;
+color: white;
+line-height: 30px;
+  margin:  20px auto 15px;
+  padding: 15px 20px;
+
+
+}
+input:hover{
+    transform: scale(1.0);
+    transition: all 0.5s;
+background-color: rgb(250, 140, 177);
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.enter{
+    display: flex;
+}
+.center{
+    padding: -15px -15px;
+}
+
+input,textarea{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px double rgb(199, 4, 137);
+    box-sizing: border-box;
+}
+.enter input,textarea{
+    width: 130px;
+}
+  
