@@ -247,13 +247,16 @@ nav ul {
   color: rgb(0, 0, 0);
   font-size: 40px;
   border: 7px dotted rgb(2, 2, 201);
-  width: 140px;
+  width: 100%;
+  max-width: 300px;
   margin: auto;
   background: url(/R\\(2\).jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   border-radius: 50px;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .sec-title {
@@ -261,10 +264,13 @@ nav ul {
   color: rgb(0, 0, 0);
   font-size: 40px;
   border: 7px dotted darksalmon;
-  width: 195px;
+  width: 100%;
+  max-width: 400px;
   background-color: rgba(254, 83, 183, 0.703);
   border-radius: 50px;
-  padding-bottom: 7px;
+  padding: 15px;
+  margin: auto;
+  box-sizing: border-box;
 }
 .skills-container {
   width: 55%;
@@ -312,11 +318,17 @@ nav ul {
   overflow: break-word;
 }
 .title2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  border: 7px dotted darksalmon;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(254, 83, 183, 0.703);
+  border-radius: 50px;
+  padding: 15px;
   margin: 65px auto 13px;
-  background: url(/R\\(2\).jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  box-sizing: border-box;
 }
 
 .experience-right {
@@ -356,15 +368,14 @@ nav ul {
   text-align: center;
   color: rgb(0, 0, 0);
   font-size: 40px;
-  border: 7px dotted rgba(198, 1, 198, 0.906);
-  width: 186px;
-  height: 50px;
-  margin: 65px auto 13px;
-  background: url(/R\\(2\).jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  border: 7px dotted darksalmon;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(254, 83, 183, 0.703);
   border-radius: 50px;
+  padding: 15px;
+  margin: 65px auto 13px;
+  box-sizing: border-box;
 }
 .education-box {
   border: 7px double rgb(186, 4, 199);
@@ -658,14 +669,15 @@ textarea {
     color: rgb(0, 0, 0);
     font-size: 32px;
     border: 7px dotted rgb(2, 2, 201);
-    width: 140px;
+    width: 100%;
+    max-width: 280px;
     margin: auto;
     background: url(/R\\(2\).jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 50px;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
   }
 
@@ -714,10 +726,11 @@ textarea {
     color: rgb(0, 0, 0);
     font-size: 32px;
     border: 7px dotted darksalmon;
-    width: 195px;
+    width: 100%;
+    max-width: 350px;
     background-color: rgba(254, 83, 183, 0.703);
     border-radius: 50px;
-    padding-bottom: 7px;
+    padding: 15px;
     margin: 40px auto 20px;
     box-sizing: border-box;
   }
@@ -769,16 +782,13 @@ textarea {
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 32px;
-    border: 7px dotted rgba(198, 1, 198, 0.906);
-    width: 186px;
-    height: 50px;
-    margin: 40px auto 20px;
-    background: url(/R\\(2\).jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    border: 7px dotted darksalmon;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(254, 83, 183, 0.703);
     border-radius: 50px;
-    padding: 10px;
+    padding: 15px;
+    margin: 40px auto 20px;
     box-sizing: border-box;
   }
 
@@ -983,14 +993,15 @@ textarea {
     color: rgb(0, 0, 0);
     font-size: 28px;
     border: 7px dotted rgb(2, 2, 201);
-    width: 120px;
+    width: 100%;
+    max-width: 250px;
     margin: auto;
     background: url(/R\\(2\).jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 50px;
-    padding: 8px;
+    padding: 12px;
     box-sizing: border-box;
   }
 
@@ -999,10 +1010,11 @@ textarea {
     color: rgb(0, 0, 0);
     font-size: 28px;
     border: 7px dotted darksalmon;
-    width: 160px;
+    width: 100%;
+    max-width: 300px;
     background-color: rgba(254, 83, 183, 0.703);
     border-radius: 50px;
-    padding-bottom: 7px;
+    padding: 12px;
     margin: 20px auto;
     box-sizing: border-box;
   }
@@ -1011,16 +1023,13 @@ textarea {
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 28px;
-    border: 7px dotted rgba(198, 1, 198, 0.906);
-    width: 160px;
-    height: 45px;
-    margin: 20px auto;
-    background: url(/R\\(2\).jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    border: 7px dotted darksalmon;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgba(254, 83, 183, 0.703);
     border-radius: 50px;
-    padding: 8px;
+    padding: 12px;
+    margin: 20px auto;
     box-sizing: border-box;
   }
 
